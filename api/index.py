@@ -31,7 +31,7 @@ def extract_text_from_image(image_path, api_key):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('ndex.html')
 
 @app.route('/process', methods=['POST'])
 def process_images():
